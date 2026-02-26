@@ -21,13 +21,16 @@ public class Ex02_condicionais {
         } else if (i > 0 && i < 100) {
             System.out.println("int positivo e menor que 100");
         } else {
-            System.out.println("ins positivo maior que 100");
+            System.out.println("int positivo maior que 100");
         }
 
         if (str == "aaaaa" || str.equals("julia")) {
             System.out.println("AAAAAA");
         } else {
             System.out.println("a.");
+        }
+        if (str.isBlank()) {
+            System.out.println("A variável str está nula");
         }
     }
 }
